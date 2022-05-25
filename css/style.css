@@ -940,7 +940,7 @@ span.red_order_notice {color: #ff0000; font-weight: 600;}
     background: url(../images/footer.png) no-repeat; 
     background-size: cover;
     font-size: 16px;
-    height: 418px;
+    height: 460px;
     position: relative;
     width: 100%;
 }
@@ -982,20 +982,21 @@ ul.register_info {
     left: 50%;
     list-style-type: none; 
     margin: 0 auto; 
-    max-width: 500px;
+    max-width: 702px;
     position: absolute;
-    top: 354px; 
+    top: 342px; 
     transform: translate3d(-50%,0,0);
     width: 100%;
 }
-ul.register_info li {float: left; font-size: 14px; margin-right: 20px;}
+ul.register_info li {float: left; font-size: 14px; margin-bottom: 10px; margin-right: 20px;}
+ul.register_info li a {color: #fff; text-decoration: none;}
 ul.register_info li:last-child {margin-right: 0;}
 p.footer_copyright {
     font-size: 14px;
     left: 50%;
     position: absolute; 
     text-align: center; 
-    top: 382px;
+    top: 426px;
     transform: translate3d(-50%,0,0);
     width: 100%;
 }
@@ -1595,7 +1596,7 @@ ul.login_modal_link li a {color:#2d2a28; font-size: 16px; font-weight: 600; text
     ul.company_info li {font-size: 14px; line-height: 28px;}
     ul.company_info li img.icon {height: auto; max-width: 20px;}
     ul.register_info {transform: none; width: 100%;}
-    ul.register_info li {font-size: 14px; line-height: 26px; margin-right: 14px;}
+    ul.register_info li {font-size: 14px; line-height: 26px; margin-bottom: 4px; margin-right: 14px;}
     p.footer_copyright {font-size: 14px; line-height: 26px; transform: none;}
     img.footer_bus,img.footer_left_cloud1,img.footer_right_cloud1,
     img.footer_left_cloud2,img.footer_right_cloud2,img.footer_right_building,
@@ -1609,7 +1610,7 @@ ul.login_modal_link li a {color:#2d2a28; font-size: 16px; font-weight: 600; text
     ul.company_info {margin: 0 auto; max-width: 334px; padding: 50px 0 60px 0;}
     ul.company_info li {position: relative;}
     ul.company_info li img.icon {height: auto; left: -30px;}
-    ul.register_info {display: block; margin: 0 auto; max-width: 334px;}
+    ul.register_info {display: block; margin: 0 auto;}
     .footer_bottom_box {background: #0075AF; color: #fff; padding: 18px 16px; position: relative;}
     .footer_content img.footer_bottom_painting {
         bottom: 0; 
@@ -1750,7 +1751,7 @@ ul.login_modal_link li a {color:#2d2a28; font-size: 16px; font-weight: 600; text
 }
 @media screen and (max-width:360px){
     .multiple_day_banner_box .banner_text h1 {width: 70%;}
-    ul.register_info {display: block; margin: 0 auto; max-width: 184px;}
+    ul.register_info {display: block; margin: 0 auto;}
     ul.register_info li:nth-child(2) {margin-right: 0;}
 }
 @media screen and (max-width:356px){
